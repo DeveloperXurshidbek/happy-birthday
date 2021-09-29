@@ -9,7 +9,7 @@ body {
   canvas{display:block}
   h1 {
     position: absolute;
-    top: 20%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
@@ -19,3 +19,8 @@ body {
     -webkit-user-select: none;
     user-select: none;
   }
+
+ @media (max-width: 800px) {
+    h1 {
+      font-size: 3em;
+    }
